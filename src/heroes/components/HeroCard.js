@@ -10,10 +10,10 @@ export const HeroCard = ({
     characters,
 }) => {
 
-    const heroImageUrl = `./assets/heroes/${id}.jpg`;
+    const heroImageUrl = `../data/heroes.js/${id}.jpg`;
     
   return (
-    <div className='col'>
+    <div className='col animate_animated animate__fadeIn'>
         <div className='card'>
             <div className='row no-gutters'>
 
